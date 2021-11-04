@@ -93,6 +93,8 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .site-nav-link.current {
@@ -144,6 +146,8 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact:hover,
@@ -197,6 +201,8 @@ img {
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.06em;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-btn:hover,
@@ -397,6 +403,8 @@ img {
   justify-content: center;
 
   background-color: var(--primary-bg-color);
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-icon-link:hover,
@@ -406,6 +414,8 @@ img {
 
 .team-icon {
   fill: #afb1b8;
+
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-icon-link:hover .team-icon,
@@ -435,6 +445,9 @@ img {
   color: #afb1b8;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-link:hover,
@@ -474,6 +487,10 @@ img {
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .filter-btn:hover,
@@ -496,6 +513,8 @@ img {
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
+
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .project-card:hover,
@@ -593,6 +612,8 @@ img {
 
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-footer:hover,
@@ -638,6 +659,8 @@ img {
   border-radius: 50%;
 
   background-color: rgba(255, 255, 255, 0.1);
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-social-link:hover,
